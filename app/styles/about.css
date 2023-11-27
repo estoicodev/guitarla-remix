@@ -1,0 +1,15 @@
+.about .content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem 3rem;
+}
+
+
+@media (min-width: 768px) {
+  .about .content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about p {
+    margin-top: 0;
+  }
+}

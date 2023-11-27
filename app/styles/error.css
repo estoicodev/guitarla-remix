@@ -1,0 +1,63 @@
+:root {
+  --primary: #e99401;
+  --black: #262626;
+  --white: #FFF;
+  --font-principal: 'Outfit', sans-serif;
+}
+
+.notfound {
+  max-width: 320px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0px 1.5rem;
+  line-height: 1.4;
+}
+
+.notfound-msg {
+  height: 200px;
+  line-height: 200px;
+}
+
+.notfound-msg h1 {
+  font-family: var(--font-principal);
+  font-size: 116px;
+  margin: 0px;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .notfound {
+    padding: 3rem 0 2rem;
+  }
+
+  .notfound-msg h1 {
+    font-size: 168px;
+  }
+}
+
+.notfound h2 {
+  font-family: var(--font-principal);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+}
+
+.notfound a {
+  display: block;
+  margin-top: 3rem;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.notfound a:hover {
+  background-color: var(--primary);
+}

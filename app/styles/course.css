@@ -1,0 +1,28 @@
+.course {
+  padding: 8rem 0;
+  margin-top: 10rem;
+}
+
+.course .heading {
+  margin-top: 0;
+}
+.course p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--white);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .course .content {
+    grid-column: 2 / 3;
+  }
+  .course p {
+    text-align: left;
+  }
+}
